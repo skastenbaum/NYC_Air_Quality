@@ -14,7 +14,7 @@ style>
         }
 
         .headline {
-            background-color: #e0f7e6;  /* Light green background */
+            background-color: #e0f7e6; 
             padding-left: 40px;
             padding-right:40px;
         }
@@ -34,7 +34,7 @@ style>
         }
         h2 {
             font-size: 1.5em;
-            color: #333;  /* Matching text color to story */
+            color: #333; 
             padding-top: 10px;
             padding-right: 40px;  
             padding-left: 40px;
@@ -42,17 +42,17 @@ style>
         }
 
         .byline, .dateline {
-            font-size: 1.2em;  /* Matched font size to story text */
-            color: #333;  /* Matched text color to story */
+            font-size: 1.2em;  
+            color: #333; 
             padding-left: 180px;  
             padding-right: 180px; 
-            margin-top: 0;  /* Removed additional margins */
+            margin-top: 0;  
             margin-bottom: 0;
         }
         .story {
             margin-top: 30px;
             font-size: 1.2em;
-            color: #333;  /* Matched text color */
+            color: #333; 
             padding-left: 180px; 
             padding-right: 180px; 
             padding-bottom: 140px;
@@ -68,7 +68,7 @@ style>
             margin-top: 30px;
         }
         .map-container {
-            padding-left: 80px;  /* Added 40px padding around the maps */
+            padding-left: 80px;  
             padding-right: 80px;
             padding-top: 20px;
             padding-bottom: 20px;
