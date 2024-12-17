@@ -1,25 +1,25 @@
-        body {
-            font-family: "Garamond", serif;
+body {
+            font-family: font-family: "Garamond", serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #fff;
         }
         .container {
             width: 80%;
             margin: 0 auto;
-            background-color: #fff;
+            background-color: #d2dfe6;
             padding: 40px;
         }
 
         .headline {
-            background-color: #e0f7e6; 
+            background-color: #d2dfe6;  
             padding-left: 40px;
             padding-right:40px;
         }
 
         h1, h2 {
-            background-color: #e0f7e6;
+            background-color: #d2dfe6;
             margin: 0;
         }
 
@@ -33,19 +33,28 @@
         }
         h2 {
             font-size: 1.5em;
-            color: #333; 
+            color: #333;  /* Matching text color to story */
             padding-top: 10px;
             padding-right: 40px;  
             padding-left: 40px;
             padding-bottom: 20px;       
         }
 
-        .byline, .dateline {
-            font-size: 1.2em;  
-            color: #333; 
+        .byline {
+            font-size: 1.2em;  /* Matched font size to story text */
+            color: #333;  /* Matched text color to story */
             padding-left: 180px;  
             padding-right: 180px; 
-            margin-top: 0;  
+            margin-top: 30px;  /* Removed additional margins */
+            margin-bottom: 0;
+        }
+
+        .dateline {
+            font-size: 1.2em;  /* Matched font size to story text */
+            color: #333;  /* Matched text color to story */
+            padding-left: 180px;  
+            padding-right: 180px; 
+            margin-top: 0;  /* Removed additional margins */
             margin-bottom: 0;
         }
         .story {
