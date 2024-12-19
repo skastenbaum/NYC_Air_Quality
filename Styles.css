@@ -40,6 +40,14 @@ body {
             padding-bottom: 20px;       
         }
 
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            margin: 0;
+        }
+
         .byline {
             font-size: 1.2em;  /* Matched font size to story text */
             color: #333;  /* Matched text color to story */
